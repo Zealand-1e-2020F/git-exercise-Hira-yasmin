@@ -4,8 +4,8 @@ namespace GitExercise
     {
         public string Navn { get; set; }
         public string Adresse { get; set; }
-        public string Postnummer { get; set; }
-        public myClass(string navn, string adresse, string postnummer)
+        public int Postnummer { get; set; }
+        public myClass(string navn, string adresse, int postnummer)
         {
             Navn = navn;
             Adresse = adresse;
@@ -13,7 +13,7 @@ namespace GitExercise
         }
         public override string ToString() 
         {
-            return Navn + Adresse + Postnummer;
+            return "Navnet er " + Navn + " adressen er " + Adresse + " og postnummer er " + Postnummer;
         }
 
         }
