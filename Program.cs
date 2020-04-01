@@ -8,8 +8,8 @@ namespace GitExercise
         {
             Console.WriteLine("Hello World!");
 
-            myClass myclass1 = new myClass("Hira", "poppelhusene", 2600, "glostrup");
-            myClass myclass2 = new myClass("Yasmin", "hedemarken", 2620, "albertslund");
+            myClass2 myclass1 = new myClass2("Hira", "poppelhusene", 2600, "glostrup");
+            myClass2 myclass2 = new myClass2("Yasmin", "hedemarken", 2620, "albertslund");
             myclass1.ToString();
 
             System.Console.WriteLine(myclass1.ToString());
